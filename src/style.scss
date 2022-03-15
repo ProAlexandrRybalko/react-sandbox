@@ -1,0 +1,34 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    
+    h1 {
+        margin: 0;
+        font-size: 50px;
+        color: violet;
+    }
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p {
+        font-size: 20px;
+        font-style: italic;
+        color: rgb(255, 0, 119);
+        margin: 10px 0;
+    }
+}
+
+footer {
+    background-color: aqua;
+
+    p {
+        color: rgb(73, 87, 59);
+        text-align: center;
+    }
+}
